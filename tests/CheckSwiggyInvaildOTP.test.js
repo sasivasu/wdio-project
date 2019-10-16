@@ -1,6 +1,17 @@
 import { expect } from 'chai';
 import Login from './classes/Login';
 
+
+/**
+* The test case is to check login to swiggy with existing phone number
+* Enter invalid OTP
+* Verify the Error message " Enter Valid OTP is displayed"
+* Uses Page and Login class
+*
+* @author  Sabareesh Sivasubramaniam
+* @version 1.0
+* @since   14-10-2019
+*/
 describe('Login Form', () => {
     it('should throw error for invalid OTP', () => {
         Login.open();

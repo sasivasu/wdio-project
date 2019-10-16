@@ -1,6 +1,16 @@
 import { expect } from 'chai';
 import SignUp from './classes/SignUp';
 
+/**
+* The test case is to check creation of user account in swiggy
+* Uses Page and SignUp class
+*
+* @author  Sabareesh Sivasubramaniam
+* @version 1.0
+* @since   14-10-2019
+*/
+
+//Todo  Bug: Now swiggy doesnt throw error for invalid OTP during Account creation, the test case should be updated once this bug is fixed
 describe('Sign up Form', () => {
     it('should create a user account', () => {
 
