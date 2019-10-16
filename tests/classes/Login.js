@@ -1,5 +1,13 @@
 import Page from './Page';
 
+/**
+* POM class for Login page of Swiggy website
+*
+* @author  Sabareesh Sivasubramaniam
+* @version 1.0
+* @since   14-10-2019
+*/
+
 class Login extends Page {
     open() {
         super.open('');

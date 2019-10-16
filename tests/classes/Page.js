@@ -1,4 +1,12 @@
 class Page {
+
+/**
+* Parent class for pages
+*
+* @author  Sabareesh Sivasubramaniam
+* @version 1.0
+* @since   14-10-2019
+*/
     open(path) {
         browser.url(path);
         browser.maximizeWindow();

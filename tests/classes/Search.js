@@ -1,5 +1,13 @@
 import Page from './Page';
 
+/**
+* POM class for search page of Swiggy website
+*
+* @author  Sabareesh Sivasubramaniam
+* @version 1.0
+* @since   14-10-2019
+*/
+
 class Search extends Page {
     open() {
         super.open('');
